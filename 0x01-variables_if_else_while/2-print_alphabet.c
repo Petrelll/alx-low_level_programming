@@ -5,16 +5,17 @@
  * Return: 0 (Successful)
  */
 
-int main(void) {
-
+int main(void)
+{
 	char b;
+
 	b = 'a';
 	while
-	       	(b <= 'z')  {
+		(b <= 'z')  {
 			putchar(b);
 			b++;
 		}
 			putchar('\n');
 
-    return 0;
+	return (0);
 }
