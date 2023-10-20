@@ -17,3 +17,7 @@
 # To assign a program that prints all the numbers of base 16 in lowercase, followed by a new line -8
 
 # To assign a program that prints all possible combinations of single-digit numbers -9
+
+# To assign a program that prints all possible different combinations of two digits -10
+
+# To assign a program that prints all possible different combinations of three digits
