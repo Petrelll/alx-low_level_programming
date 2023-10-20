@@ -22,14 +22,14 @@ int main(void)
 			{
 				if (a < b && b < c)
 				{
-					putchar (a);
-					putchar (b);
-					putchar (c);
+					putchar(a);
+					putchar(b);
+					putchar(c);
 
 					if (!(a == '7' && b == '8' && a == '9'))
 					{
-						putchar (',');
-						putchar (' ');
+						putchar(',');
+						putchar(' ');
 					}
 				}
 				c++;
