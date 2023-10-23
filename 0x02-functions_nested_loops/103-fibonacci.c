@@ -20,6 +20,6 @@ int main(void)
 		y = z;
 		z = sum;
 	}
-	printf("%d\n", tsum);
+	printf("%ld\n", tsum);
 	return (0);
 }
