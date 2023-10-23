@@ -7,7 +7,7 @@
  * @n1: Integer one
  * @n2: Integer two
  *
- * Return: The sum
+ * Return: The sum of n1 and n2
  */
 
 
