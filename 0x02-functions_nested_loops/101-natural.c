@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include <stdio.h>
 
 /**
  * main - check the code.
@@ -10,12 +9,13 @@
 
 int main(void)
 {
-	print_times_table(3);
-	_putchar('\n');
-	print_times_table(5);
-	_putchar('\n');
-	print_times_table(98);
-	_putchar('\n');
-	print_times_table(12);
+	int a, sum = 0;
+
+	for (a = 0; a < 1024; a++)
+	{
+		if ((a % 5 == 0) || (a % 3 == 0))
+			sum += a;
+	}
+	printf("%d\n", sum);
 	return (0);
 }
